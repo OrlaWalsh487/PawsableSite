@@ -1,0 +1,88 @@
+.table th {
+    text-align: center;
+}
+
+.dropdown{
+	margin: 0;
+}
+
+ .container{
+   background: url(img/dogbanner3.jpg);
+   height: 300px;
+   color: white;
+   text-align: center;
+  
+ }
+.column {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row{
+  padding-top: 50px;
+}
+.column {
+  padding-bottom: 50px;
+}
+
+.grid-container {
+			/*Turn div into grid*/
+	display: grid;
+
+	
+}
+
+#footer{
+  clear: both;
+	background: #dedede;
+	text-align: center;
+	padding: 20px;
+	height: 1%;
+
+}
+
+.social {
+  width: 90px;	
+}
+
+form{
+  float: left;
+  padding: 50px;
+  width: 70%;
+}
+
+#contactDog{
+  margin: 20px 0px 0px 0px;
+  float: right;
+}
+
+.flex-container {
+  display: flex;
+  height: auto;
+  widht: 300px;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: center;
+   padding: 0px 0px 50px 0px;
+}
+.events{
+  padding: 0px 50px 0px 0px;
+}
+
+.blog a{
+  border: 1px solid #dedede;
+  border-radius: 10px;
+  padding: 20px 10px 20px 10px;
+  margin: 60px;
+}
+
+.blog h2{
+  padding: 0px 0px 20px 0px;
+}
